@@ -1,0 +1,80 @@
+@import 'colour-variables.scss';
+
+.contact-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .container{
+        width: min(90%, 954px);
+        padding: 101px 98px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $primary2;
+        .text-wrap{
+            text-align: center;
+            margin-bottom: 40px;
+            .pattern{
+                margin-bottom: 13px;
+            }
+            .title h2{
+                color: #FFF;
+                font-family: 'Rubik';
+                font-size: 2.1875rem;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 3px;
+            }
+            .text{
+                color: #FFF;
+            }
+        }
+        .icon-info{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 38px;
+            .info-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 11px;
+                .icon{
+                    width: 63px;
+                    height: 63px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    vertical-align: top;
+                    background-color: #273270;
+                    border-radius: 50%;
+                    
+                }
+                .info{
+                    text-align: center;
+                    span, a{
+                        display: block;
+                        color: #FFF;
+                        font-size: 0.875rem;
+                        line-height: 135.023%;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+                
+            }
+        }
+        .contacts{
+            padding-top: 0;
+            width: 100%;
+            .button{
+                text-align: center;
+                .btn{
+                    padding: 19px 34px;
+                }
+            }
+        }
+    }
+}

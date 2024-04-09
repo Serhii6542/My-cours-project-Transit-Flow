@@ -1,0 +1,44 @@
+@import 'colour-variables.scss';
+
+
+.err{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .textErr{
+        color: $primary2;
+        font-family: "Rubik";
+        font-size: 21.875rem;
+        font-weight: 600;
+        line-height: normal;
+        span{
+            color: $primary1;
+        }
+    }
+    .wrap-text{
+        text-align: center;
+        .title{
+            color: $primary2;
+            font-family: "Rubik";
+            font-size: 2.1875rem;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 7px;
+        }
+        .text{
+            display: block;
+            margin-bottom: 26px;
+        }
+    }
+    .link-home{
+        text-align: center;
+        .link{
+            padding: 19px 45px;
+            font-weight: 600;
+            line-height: 135.023%;
+        }
+    }
+    
+}

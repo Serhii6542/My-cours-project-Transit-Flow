@@ -1,0 +1,36 @@
+.gallery .container{
+    padding: 100px 0;
+    .lg-react-element{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        .itemGallery{
+            aspect-ratio: 379/346;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                width: 85%;
+                height: 85%;
+                background: rgba(#000000, 0.7);
+                opacity: 0;
+                transition: all 0.2s ease;
+                background-image: url('../assets/img/Icon-gallary.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &:hover::before{
+                opacity: 1;
+                
+            }
+        }
+    }
+}
+.count-gallery{
+    margin-bottom: 0;
+}
+

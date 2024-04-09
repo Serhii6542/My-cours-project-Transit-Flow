@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "questions":"How can I pay for your logistics services?",
+        "answer":"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive."
+    },
+    {
+        "id":"2",
+        "questions":"What payment methods are supported?",
+        "answer":"Cash or transfer to an account."
+    },
+    {
+        "id":"3",
+        "questions":"What options for logistics plans are available?",
+        "answer":"Ship transport, air transport, truck transport."
+    },
+    {
+        "id":"4",
+        "questions":"Can i specify a delivery date when ordering?",
+        "answer":"Yes, you can, but if there are any delays, we will notify you."
+    }
+]

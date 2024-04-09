@@ -1,0 +1,65 @@
+.form-contacts{
+    padding-top: 42px;
+    width: 63.1%;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    .wrap-input{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px 28px;
+    }
+    .wrap-elem{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .flr-err{
+            height: 25px;
+            color: red;
+        }
+        .elem{
+            width: 100%;
+            padding: 21px 30px;
+            background-color: transparent;
+            border: 1px solid #4E5683;
+            color: #FFF;
+            font-family: "League Spartan";
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: normal;
+            &::placeholder{
+                color: #fff;
+            }
+            &.textarea{
+                min-width: 100%;
+                min-height: 158px;
+            }
+            &.red{
+                border-color: red;
+                color: red;
+                &::placeholder{
+                    color: red;
+                }
+            }
+            &:focus-visible{
+                outline: none;
+                border-color: #ffffff;
+            }
+        }
+    }
+    .btn-form{
+        padding: 19px 34px;
+        background: $primary4;
+        color: #23212A;
+        font-family: "Krub";
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 135.023%;
+        cursor: pointer;
+        &:hover{
+            background: linear-gradient(94deg, #b1801e -1.21%, #bba03e 50.75%, #FFD7A6 102.71%);
+        }
+
+    }
+}

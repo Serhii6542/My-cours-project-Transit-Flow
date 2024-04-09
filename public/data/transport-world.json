@@ -1,0 +1,27 @@
+[
+    {
+        "imgTransp":"assets/img/transp-1.jpg",
+        "serviceType":"Liquid Transportation",
+        "nameTransp":"Premium Tankers"
+    },
+    {
+        "imgTransp":"assets/img/transp-2.jpg",
+        "serviceType":"Packaging Solutions",
+        "nameTransp":"Warehouse Management"
+    },
+    {
+        "imgTransp":"assets/img/transp-3.jpg",
+        "serviceType":"Contract Logistics",
+        "nameTransp":"Road Transportation"
+    },
+    {
+        "imgTransp":"assets/img/transp-4.jpg",
+        "serviceType":"Warehouse & Distribution",
+        "nameTransp":"Large Warehouse"
+    },
+    {
+        "imgTransp":"assets/img/transp-5.jpg",
+        "serviceType":"Specialized Transport",
+        "nameTransp":"Ocean Transports"
+    }
+]

@@ -1,0 +1,90 @@
+@import 'colour-variables.scss';
+
+
+.prising{
+    margin-bottom: 100px;
+    .top{
+        text-align: center;
+        margin-bottom: 64px;
+        .pattern{
+            margin-bottom: 15px;
+        }
+        .title{
+            color: $primary2;
+            font-family: "Rubik";
+            font-size: 2.1875rem;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        gap: 29px;
+        .wrap-price{
+            width: 33%;
+            padding: 61px 50px;
+            background: #F4F4F4;;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            color: $primary2;
+            &.dark{
+                background: #091242;
+                color: #fff;
+
+            }
+            .top-pricing{
+                text-align: center;
+                .title-pricing{
+                    font-family: "Rubik";
+                    font-size: 1.875rem;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 38px;
+                }
+                .price{
+                    font-family: "Rubik";
+                    font-size: 5.3125rem;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                .pref{
+                    font-family: "Rubik";
+                    font-size: 1.375rem;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            .features-list{
+                text-align: center;
+                width: 100%;
+                border-top: 1px solid #D6D6D6;
+                &.dark {
+                    border-color: #1F2A69;
+                    li{
+                        color: #FFFFFF;
+                        border-color: #1F2A69;
+                    }
+                }
+                li{
+                    padding-top: 17px;
+                    height: 59px;
+                    border-bottom: 1px solid #D6D6D6;
+                    color: #1C1F35;
+                    font-family: "Rubik";
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            .bottom-btn{
+                text-align: center;
+                .btn{
+                    padding: 19px 50px;
+                }
+            }
+        }
+    }
+    
+}

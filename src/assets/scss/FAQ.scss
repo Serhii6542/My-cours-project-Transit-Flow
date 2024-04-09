@@ -1,0 +1,139 @@
+@import 'colour-variables.scss';
+
+
+.question{
+    padding: 125px 0;
+    background: $primary3;
+    .container{
+        display: flex;
+        gap: 71px;
+        .question-wrap{
+            width: 56.7%;
+            .pattern{
+                margin-bottom: 15px;
+            }
+            .title{
+                color: #1C1F35;
+                font-family: 'Rubik';
+                font-size: 2.1875rem;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 50px;
+                width: 45%;
+            }
+            .acordion{
+                display: flex;
+                flex-direction: column;
+                gap: 44px;
+                .acord {
+                    display: flex;
+                    gap: 18px;
+                    flex-direction: column;
+                    .wrap-header-acotdion{
+                        position: relative;
+                        .title-acordion{
+                            cursor: pointer;
+                            color: #1C1F35;
+                            font-family: "Rubik";
+                            font-size: 1.25rem;
+                            font-weight: 400;
+                            line-height: normal;
+                            position: relative;
+                            z-index: 2;
+                            padding-right: 15px;
+                        }
+                        .icon{
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            display: block;
+                            transform: translateY(-50%);
+                            svg{
+                                transition: all 0.2s ease;
+                                vertical-align: top;
+                            }
+                            path{
+                                transition: all 0.2s ease; 
+                                stroke: #1C1F35;
+                            } 
+                            &.active svg{
+                                
+                                transform: rotate(90deg);
+                                path{
+                                    stroke: $primary1;
+                                }
+                            }
+                        }
+                        &:hover path{
+                            stroke: $primary1;
+                        }
+                    
+                    }
+                    .text-acord{
+                        animation: fadein 0.5s ease;
+                    } 
+                }
+            }
+        }
+        .address{
+            max-height: 377px;
+            margin-top: 60px;
+            width: 37.3%;
+            padding: 52px 62px;
+            background-color: $primary2;
+            .ques{
+                margin-bottom: 23px;
+            }
+            .help-title{
+                margin-bottom: 21px;
+                color: #FFF;
+                font-family: "Rubik";
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+            .tel{
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                margin-bottom: 26px;
+                .icon-tel{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 63px;
+                    height: 63px;
+                    border: 1px solid #2D3A7B;
+                    background-color: #111C55;
+                    border-radius: 50%;
+                }
+                .phone{
+                    display: flex;
+                    flex-direction: column;
+                    color: #FFF;
+                    line-height: 135.023%;
+                    .link{
+                        color: #FFF;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .btn.light{
+                padding: 19px 30px;
+            }
+        }
+    }
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

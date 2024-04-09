@@ -1,0 +1,59 @@
+@import 'colour-variables.scss';
+
+.section-detail{
+    padding: 100px 0;
+    .img-wrap{
+        aspect-ratio: 1200/509;
+        background-color: $primary2;
+        margin-bottom: 40px;
+    }
+    .title-back-link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 22px;
+        .title-wrap{
+            width: 80%;
+            display: flex;
+            gap: 22px;
+            align-items: center;
+            .icon-det img{
+                height: 53px;
+            }
+            .title{
+                color: $primary2;
+                font-family: "Rubik";
+                font-size: 2.1875rem;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+        .link-back{
+            width: 15%;
+            color: $primary2;
+            font-family: "Rubik";
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: normal;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            &:hover{
+                color: $primary1;
+            }
+        }
+    }
+    .text-det {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 20px;
+    }
+    .date{
+        color: #000;
+        font-size: 1.5rem;
+    }
+    
+}
+

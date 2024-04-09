@@ -1,0 +1,115 @@
+@import 'colour-variables.scss';
+
+
+.service{
+    padding-bottom: 121px;
+    .container{
+        display: flex;
+        gap: 33px;
+        .right{
+            width: 24.5%;
+            .title h2{
+                color: $primary2;
+                font-family: "Rubik";
+                font-size: 2.1875rem;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+        .left{
+            width: 72.8%;
+            .wrap{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 70px 83px;
+                .item-ser{
+                    display: inline-flex;
+                    gap: 28px;
+                    .info{
+                        padding-left: 25px;
+                        border-left: 1px solid #D8D8D8;
+                        .title-ser {
+                            margin-bottom: 13px;
+                            display: inline-block;
+                            a{
+                                display: block;
+                                width: 100%;
+                                color: $primary2;
+                                font-family: "Rubik";
+                                font-size: 1.5625rem;
+                                font-weight: 400;
+                                line-height: normal;
+                                text-decoration: none;
+                                &:hover{
+                                    color: $primary1;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.dark{
+        background: $primary3;
+        padding: 108px 0;
+        margin-bottom: 100px;
+        .container{
+            display: block;
+            .right{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 55px;
+            }
+            .left{
+                width: 100%;
+                margin-bottom: 55px;
+                .item-ser{
+                    display: inline-block;
+                    .img{
+                        margin-bottom: 22px;
+                    }
+                    .info{
+                        padding-left: 0;
+                        border: none;
+                    }
+                }
+            }
+            .bottom-btn{
+                text-align: center;
+            }
+        }
+    }
+    &.full-service{
+        padding: 100px 0;
+        .container{
+            display: block;
+            .right{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 55px;
+            }
+            .left{
+                width: 100%;
+                .wrap{
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 53px 192px;
+                }
+                .item-ser{
+                    display: inline-block;
+                    .img{
+                        margin-bottom: 22px;
+                    }
+                    .info{
+                        padding-left: 0;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.count-wrap.counter-page{
+    margin-bottom: 0;
+}

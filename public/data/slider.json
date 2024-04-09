@@ -1,0 +1,102 @@
+[
+    {
+        "id":"1",
+        "colorName":"",
+        "user_img":"assets/img/user1.jpg",
+        "name_user":"Kathleen Smith",
+        "name_company":"Fuel Company",
+        "text_sl":"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+        "stars":[
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "colorName":"dark",
+        "user_img":"assets/img/user2.jpg",
+        "name_user":"John Martin",
+        "name_company":"Restoration Company",
+        "text_sl":"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+        "stars":[
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "colorName":"",
+        "user_img":"assets/img/user1.jpg",
+        "name_user":"Kathleen Smith",
+        "name_company":"Fuel Company",
+        "text_sl":"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+        "stars":[
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            }
+        ]
+    },
+    {
+        "id":"4",
+        "colorName":"dark",
+        "user_img":"assets/img/user2.jpg",
+        "name_user":"John Martin",
+        "name_company":"Restoration Company",
+        "text_sl":"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+        "stars":[
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            },
+            {
+                "star":"assets/img/Star.svg"
+            }
+        ]
+    }
+]

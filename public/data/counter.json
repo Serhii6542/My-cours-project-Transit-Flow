@@ -1,0 +1,34 @@
+[
+    {
+        "nameClass":"",
+        "end":"24",
+        "duration":"7",
+        "separator":"",
+        "text":"Our Location",
+        "suffix":""
+    },
+    {
+        "nameClass":"",
+        "end":"1294",
+        "duration":"7",
+        "separator":"",
+        "text":"Delivered Packages",
+        "suffix":""
+    },
+    {
+        "nameClass":"",
+        "end":"3594",
+        "duration":"7",
+        "separator":"",
+        "text":"Satisfied Clients",
+        "suffix":""
+    },
+    {
+        "nameClass":"last",
+        "end":"247",
+        "duration":"7",
+        "separator":"",
+        "text":"Owned Vehicles",
+        "suffix":"+"
+    }
+]

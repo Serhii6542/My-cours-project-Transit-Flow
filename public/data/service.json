@@ -1,0 +1,45 @@
+[
+    {
+        "id":"1",
+        "img":"assets/img/spraitIconService.svg#service1",
+        "title":"Sea Transport Services",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"sea-transport-services"
+    },
+    {
+        "id":"2",
+        "img":"assets/img/spraitIconService.svg#service2",
+        "title":"Warehousing Services",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"warehousing-services"
+    },
+    {
+        "id":"3",
+        "img":"assets/img/spraitIconService.svg#service3",
+        "title":"Air Fright Services",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"air-fright-services"
+    },
+    {
+        "id":"4",
+        "img":"assets/img/spraitIconService.svg#service4",
+        "title":"Local Shipping Services",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"local-shipping-services"
+    },
+    {
+        "id":"5",
+        "img":"assets/img/spraitIconService.svg#service5",
+        "title":"Project & Exhibition",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"project-exhibition"
+    },
+    
+    {
+        "id":"6",
+        "img":"assets/img/spraitIconService.svg#service6",
+        "title":"Customer Clearance",
+        "desc":"Following the quality of our service thus having gained trust of our many clients.",
+        "slug":"customer-clearance"
+    }
+]

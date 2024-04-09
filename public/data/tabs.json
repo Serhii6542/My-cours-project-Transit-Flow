@@ -1,0 +1,17 @@
+[
+    {   
+        "id": "1",
+        "title":"Our Approch",
+        "desc": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem quia voluptassit."
+    },
+    {   
+        "id": "2",
+        "title":"Our Approch",
+        "desc": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem quia voluptassit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat nesciunt nisi cupiditate vel saepe?"
+    },
+    {
+        "id": "3",
+        "title":"Our Approch",
+        "desc": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem quia voluptassit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat nesciunt nisi cupiditate vel saepe? Lorem ipsum dolor sit amet."
+    }
+]
