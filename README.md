@@ -2,4 +2,4 @@
 
 I used technology: **HTML**, **SCSS**, **React + Vite**
 
-<!-- [Link to my project]() -->
+[Link to my project](https://serhii6542.github.io/My-cours-project-Transit-Flow/)
