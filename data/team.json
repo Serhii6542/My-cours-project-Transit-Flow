@@ -1,0 +1,124 @@
+[
+    {
+        "imgUser":"assets/img/team1.jpg",
+        "altImg":"girl",
+        "name":"Jessca Arow",
+        "prof":"Designer",
+        "soc":[
+            {
+                "linkSoc":"https://twitter.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#twitter"
+            },
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    },
+    {
+        "imgUser":"assets/img/team2.jpg",
+        "altImg":"man",
+        "name":"Kathleen Smith",
+        "prof":"Designer",
+        "soc":[
+            {
+                "linkSoc":"https://www.linkedin.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#linkedin"
+            },
+            {
+                "linkSoc":"https://twitter.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#twitter"
+            },
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    },
+    {
+        "imgUser":"assets/img/team3.jpg",
+        "altImg":"girl",
+        "name":"Rebecca Tylor",
+        "prof":"Designer",
+        "soc":[
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    },
+    {
+        "imgUser":"assets/img/team4.jpg",
+        "altImg":"girl",
+        "name":"Ria Jackson",
+        "prof":"Operational Head",
+        "soc":[
+            {
+                "linkSoc":"https://twitter.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#twitter"
+            },
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    },
+    {
+        "imgUser":"assets/img/team5.jpg",
+        "altImg":"man",
+        "name":"Kane William",
+        "prof":"Country Head",
+        "soc":[
+            {
+                "linkSoc":"https://twitter.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#twitter"
+            },
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    },
+    {
+        "imgUser":"assets/img/team6.jpg",
+        "altImg":"girl",
+        "name":"Lisara Tylor",
+        "prof":"Finance Manager",
+        "soc":[
+            {
+                "linkSoc":"https://www.facebook.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#facebook"
+            },
+            {
+                "linkSoc":"https://www.instagram.com/",
+                "iconSoc":"assets/img/spriteSoc.svg#insta"
+            }
+        ]
+
+    }
+]

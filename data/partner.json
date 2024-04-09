@@ -1,0 +1,18 @@
+[
+    {
+        "bgLogo":"assets/img/Image-bg-logo1.jpg",
+        "logoPartner":"assets/img/Logo-partner1.svg"
+    },
+    {
+        "bgLogo":"assets/img/Image-bg-logo2.jpg",
+        "logoPartner":"assets/img/Logo-partner2.svg"
+    },
+    {
+        "bgLogo":"assets/img/Image-bg-logo3.jpg",
+        "logoPartner":"assets/img/Logo-partner3.svg"
+    },
+    {
+        "bgLogo":"assets/img/Image-bg-logo4.jpg",
+        "logoPartner":"assets/img/Logo-partner4.svg"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "colorPrice":"",
+        "titlePrice":"Basic",
+        "price":"$39",
+        "pref":"/ month",
+        "featuresList": [
+            {
+                "itemList":"Single Truck"
+            },
+            {
+                "itemList":"Full Insurance"
+            },
+            {
+                "itemList":"500 Km"
+            },
+            {
+                "itemList":"Real-time rate shopping"
+            }
+        ],
+        "btnName":"Choose Plan",
+        "colorBtn":""
+    },
+    {
+        "colorPrice":"dark",
+        "titlePrice":"Standard",
+        "price":"$59",
+        "pref":"/ month",
+        "featuresList": [
+            {
+                "itemList":"Single Truck"
+            },
+            {
+                "itemList":"Full Insurance"
+            },
+            {
+                "itemList":"500 Km"
+            },
+            {
+                "itemList":"Real-time rate shopping"
+            }
+        ],
+        "btnName":"Choose Plan",
+        "colorBtn":"light"
+    },
+    {
+        "colorPrice":"",
+        "titlePrice":"Premium",
+        "price":"$89",
+        "pref":"/ month",
+        "featuresList": [
+            {
+                "itemList":"Double Truck"
+            },
+            {
+                "itemList":"Full Insurance"
+            },
+            {
+                "itemList":"Unlimitted"
+            },
+            {
+                "itemList":"Real-time rate shopping"
+            }
+        ],
+        "btnName":"Choose Plan",
+        "colorBtn":""
+    }
+]
