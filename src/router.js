@@ -73,10 +73,6 @@ export default createHashRouter([
                 path: 'pricing',
                 Component: PricingPage,
             },
-            // {
-            //     path:"/news/:slug",
-            //     Component:NewDet
-            // },
             {
                 path: '*',
                 Component: NotFound
